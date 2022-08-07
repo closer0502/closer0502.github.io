@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    background-color: rgb(243, 234, 245);
+}
+
+.header{
+    
+    
+    text-align: center;
+    padding: 5px;
+}
+
+.header .content_area{
+    display: inline-block;
+    
+}
+
+.tab{
+    display: inline-block;
+    font-size: 16px;
+    color:rgb(24, 49, 71);
+    background-color: rgb(171, 219, 209);
+    width: 100px;
+    border: 2px solid rgb(62, 85, 80);
+    border-radius: 6px;
+    padding: 2px;
+    margin: 4px;
+}
+
+
+.main{
+    min-height: 100px;
+    
+    text-align: center;
+}
+
+
+.main iframe{
+    width: 1000px;
+    height: 1000px;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.footer{
+    height: 100px;
+    background-color: blueviolet;
+}

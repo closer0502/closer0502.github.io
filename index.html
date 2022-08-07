@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=“ja”>
+<html lang="ja">
  <head>
   <meta http-equiv="content-language" content="ja">
   <meta name="robots" content="noindex,nofollow">
@@ -7,11 +7,24 @@
   <title>HTML5サンプル</title>
   
   <link rel="stylesheet" href="style.css">
+  <script src="sample.js"></script>
    
  </head>
+
  <body>
-  <button>button1</button>
-  <button>button2</button>
-    <script src="sample.js"></script>
+  <div class="header">
+    <div class="content_area">
+      <a class="tab" target="frame1" href="hello.html">HTML</a>
+      <a class="tab" target="frame1">Java</a>
+      <a class="tab" target="frame1">Java Script</a>
+      <a class="tab" target="frame1">C#</a>
+    </div>
+
+  </div>
+
+  <div class="main">
+    <iframe name="frame1"></iframe>
+  </div>
+
  </body>
 </html>
