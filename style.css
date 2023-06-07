@@ -1,18 +1,17 @@
 body{
     margin: 0px;
     background-color: rgb(243, 234, 245);
+    color:rgb(122, 88, 46);
 }
 
 .header{
-    
-    
     text-align: center;
     padding: 5px;
+    background-color: aliceblue;
 }
 
 .header .content_area{
     display: inline-block;
-    
 }
 
 .tab{
@@ -27,24 +26,21 @@ body{
     margin: 4px;
 }
 
-
-.main{
+.main_area{
     min-height: 100px;
     
     text-align: center;
 }
 
-
-.main iframe{
-    width: 1000px;
-    height: 1000px;
-    border-width: 0;
-    margin: 0;
-    padding: 0;
-    
+.main_area .tools_area .item{
+    /*リンクのアンダーラインを消す*/
+    text-decoration: none;
 }
 
-.footer{
-    height: 100px;
-    background-color: blueviolet;
+/*main_areaクラスの中のtools_areaクラスの中のitemクラスにマウスカーソルが乗ったら*/
+.main_area .tools_area .item:hover{
+    background-color: rgb(170, 134, 179);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 2px 6px;
 }

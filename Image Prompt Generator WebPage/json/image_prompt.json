@@ -1,0 +1,44 @@
+{
+    "lighting": [
+        "backlight",
+        "colorful lighting",
+        "moody lighting",
+        "studio lighting",
+        "directional Light",
+        "dramatic lighting",
+        "spot lighting",
+        "cinematic lighting",
+        "direct lighting",
+        "bounce Lighting",
+        "practical Lighting",
+        "volumetric lighting",
+        "dynamic lighting",
+        "Warm lighting",
+        "cold lighting",
+        "high-key lighting",
+        "low-key lighting",
+        "hard light",
+        "soft light",
+        "strobe lighting",
+        "ambient light",
+        "flash lighting",
+        "natural lighting"
+    ],
+    "lighting_direction":[
+        "light from above",
+        "underlighting",
+        "sidelighting"
+    ],
+    "Lighting Type":[
+        "area light",
+        "point light"
+    ],
+    
+    "camera_angle": [
+        "low angle shot",
+        "low angle full body shot",
+        "high angle shot",
+        "high angle full body shot",
+        "dutch angle shot"
+    ]
+}

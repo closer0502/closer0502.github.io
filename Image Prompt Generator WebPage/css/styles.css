@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-size: medium;
+    background-color: rgb(243, 234, 245);
+}
+
+#title_header {
+    /* Add styles for the title header */
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#tab-container {
+    /* Add styles for the tab container */
+    font-size: 1.2rem;
+}
+
+#button-container {
+    /* Add styles for the button container */
+    max-width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow-y: auto;
+    
+}
+
+button {
+    /* Add styles for buttons */
+    font-size: 1rem;
+    border-radius: 6px;
+    margin: 3px;
+}
+
+#tab-container button{
+    /* Add styles for the tab container */
+    font-size: 1.2rem;
+}
+
+textarea {
+    /* Add styles for the output text box */
+    display: block;
+    width: 600px;
+    height: 10em;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin: 20px auto;
+    /*サイズ固定*/
+    resize: none;
+}
+
+#copy-button{
+    /* Add styles for the copy button */
+    margin: 20px auto;
+    font-size: 1.2rem;
+}
