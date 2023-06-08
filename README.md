@@ -1,4 +1,3 @@
 # Test
 
-[My Page](https://closer0502.github.io)
-<https://closer0502.github.io>
+[My Page](https://closer0502.github.io){:target="_blank"}
