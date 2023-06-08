@@ -1,14 +1,17 @@
+:root {
+    --main-font-color: rgb(92, 64, 29);
+    --button-border-color: rgb(176, 214, 205);
+  }
+
 body {
     text-align: center;
     font-size: medium;
     background-color: rgb(243, 234, 245);
+    color: var(--main-font-color);
 }
 
 #title_header {
     /* Add styles for the title header */
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 20px;
 }
 
 #tab-container {
@@ -30,7 +33,9 @@ button {
     /* Add styles for buttons */
     font-size: 1rem;
     border-radius: 6px;
+    border: 2px solid var(--button-border-color);
     margin: 3px;
+    color: var(--main-font-color);
 }
 
 #tab-container button{

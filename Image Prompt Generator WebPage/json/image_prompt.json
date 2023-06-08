@@ -1,19 +1,16 @@
 {
-    "lighting": [
+    "Lighting Style": [
         "backlight",
         "colorful lighting",
         "moody lighting",
         "studio lighting",
-        "directional Light",
         "dramatic lighting",
         "spot lighting",
         "cinematic lighting",
-        "direct lighting",
-        "bounce Lighting",
-        "practical Lighting",
+        "practical lighting",
         "volumetric lighting",
         "dynamic lighting",
-        "Warm lighting",
+        "warm lighting",
         "cold lighting",
         "high-key lighting",
         "low-key lighting",
@@ -24,21 +21,122 @@
         "flash lighting",
         "natural lighting"
     ],
-    "lighting_direction":[
+    "Lighting Direction": [
         "light from above",
         "underlighting",
         "sidelighting"
     ],
-    "Lighting Type":[
+    "Lighting Type": [
         "area light",
-        "point light"
+        "point light",
+        "directional light",
+        "bounce lighting"
     ],
-    
-    "camera_angle": [
-        "low angle shot",
-        "low angle full body shot",
-        "high angle shot",
-        "high angle full body shot",
-        "dutch angle shot"
-    ]
+    "Angle": [
+        "low angle",
+        "high angle",
+        "dutch angle",
+        "side angle",
+        "diagonal angle",
+        "angle from behind",
+        "cinematic angle"
+    ],
+    "Position": [
+        "high position",
+        "low position",
+        "on right",
+        "on left"
+    ],
+    "Perspective": [
+        "bird's-eye view",
+        "overhead shot",
+        "ground-level shot",
+        "selfie",
+        "aerial view",
+        "aerial shot",
+        "satellite photo",
+        "front view",
+        "side view",
+        "back shot",
+        "isometric",
+        "cross-section view",
+        "landscape"
+    ],
+    "Shot Type": [
+        "medium shot",
+        "long shot",
+        "wide shot",
+        "extremely long shot",
+        "close-up",
+        "extremely close-up",
+        "full body shot",
+        "face shot",
+        "cowboy shot",
+        "bust-up shot",
+        "looking at the viewer"
+    ],
+    "Image Enhancement": [
+        "Sharpen",
+        "Gaussian Blur",
+        "Bilateral Blur"
+        ],
+        "Glitch Effects": [
+        "Glitch-effect",
+        "Glitch-noise"
+        ],
+        "Lens Effects": [
+        "Lens flare",
+        "Glow"
+        ],
+        "Time Manipulation": [
+        "Slow motion"
+        ],
+        "Blur Effects": [
+        "Radial blur",
+        "Motion-blur",
+        "Zoom blur"
+        ],
+        "Graphic Effects": [
+        "Motion graphics",
+        "Speed-lines",
+        "Action-lines",
+        "Superimpose",
+        "Keyframe Animation",
+        "Masking"
+        ],
+        "Color Effects": [
+        "Sepia",
+        "B&W",
+        "Selective color",
+        "Vintage",
+        "Retroprint",
+        "Film Noise",
+        "X-Pro II"
+        ],
+        "Fade Effects": [
+        "Fade-in",
+        "Fade-out",
+        "Crossfade"
+        ],
+        "Texture Effects": [
+        "Silk screen",
+        "Film-damaged",
+        "Halftone",
+        "Mosaic",
+        "Pixelate-effect",
+        "Film grain"
+        ],
+        "Lighting Effects": [
+        "Light caustics effect",
+        "Flame Effects"
+        ],
+        "Special Effects": [
+        "Wind-effect",
+        "Particle",
+        "Ink",
+        "Tile",
+        "Flip",
+        "Panorama",
+        "Perspective"
+        ]
 }
